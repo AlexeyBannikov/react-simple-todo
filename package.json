@@ -1,5 +1,5 @@
 {
-  "name": "ts-course-with-todo",
+  "name": "react-simple-todo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
