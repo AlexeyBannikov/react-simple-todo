@@ -29,7 +29,12 @@ const TodoForm: React.FC<TodoFormProps> = ({ addTodo }) => {
         placeholder='Введите название дела'
       />
       {title && (
-        <button className='plus' onClick={() => addTodo(title)}>
+        <button
+          className='plus'
+          onClick={() => {
+            addTodo(title);
+            setTitle('');
+          }}>
           +
         </button>
       )}
